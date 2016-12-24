@@ -10,8 +10,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mirza.animasyonlar.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alpha Değeri"
+            android:textSize="50dp"
+            android:id="@+id/txtYazi"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnAlphaArttir"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="Alpha Arttır"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blink"
+            android:id="@+id/btnBlink"
+            android:textSize="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnAlphaAzalt"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="Alpha azalt"/>
+    </LinearLayout>
+
+
+
 </RelativeLayout>
